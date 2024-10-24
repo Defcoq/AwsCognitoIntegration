@@ -1,0 +1,1 @@
+C:\Users\jpierre.deffofotso\source\repos\AWS.CognitoNet40Test\TestCognitoWebForm40\obj\Debug\TestCognitoWebForm40.csproj.CoreCompileInputs.cache
