@@ -79,11 +79,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AuthorizationCodeCallback.aspx" />
     <Content Include="CognitoCallback.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="ImplicitFlowCallBack.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorizationCodeCallback.aspx.cs">
+      <DependentUpon>AuthorizationCodeCallback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthorizationCodeCallback.aspx.designer.cs">
+      <DependentUpon>AuthorizationCodeCallback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CognitoCallback.aspx.cs">
       <DependentUpon>CognitoCallback.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,6 +106,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImplicitFlowCallBack.aspx.cs">
+      <DependentUpon>ImplicitFlowCallBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImplicitFlowCallBack.aspx.designer.cs">
+      <DependentUpon>ImplicitFlowCallBack.aspx</DependentUpon>
     </Compile>
     <Compile Include="JwtTokenValidatorWithCognitoJWKS.cs" />
     <Compile Include="JwtTokenValidatorWithJWT.cs" />
